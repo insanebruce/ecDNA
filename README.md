@@ -2,12 +2,8 @@
 
 CSE 280A Project - extrachromosomal DNA (ecDNA) in cancer
 
-*Strategy **1*** (`data/oncoprint_1.tsv`):
-
-* ecDNA- = Non-circular, ecDNA+ = otherwise
-* last ecDNA+ patient is *TCGA-VD-AA8P* (Col BNT in Excel)
-
-*Strategy **2*** (`data/oncoprint_2.tsv`):
+Processed oncoprint matrix (`data/oncoprint.tsv`):
 
 * ecDNA+ = Circular, ecDNA- = otherwise
-* last ecDNA+ patient is *TCGA-G2-A2EK* (Col BJF in Excel)
+* initial columns are ecDNA+ samples
+* last ecDNA+ patient is *TCGA-G2-A2EK* (Col LY in Excel, 335th patient)
